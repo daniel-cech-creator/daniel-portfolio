@@ -1,0 +1,62 @@
+body{background-color: rgb(209, 209, 209);}
+h2, p {font-family: sans-serif;}
+
+.contact-frame{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contact-frame .profile{
+    display: block;
+    align-self: center;
+    width: 280px;
+    height: 280px;
+
+    object-fit: cover;
+    border-radius: 20px;
+    margin-top: 10px;
+    transition: 0.15s;
+}
+
+.contact-frame img:hover{
+    transform: scale(1.02);
+}
+
+.contact-frame h2{
+    font-weight: 500;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 26px;
+    margin-bottom: 2px;
+}
+.contact-frame p{
+    font-weight: 300;
+    margin-left: 20px;
+    margin-top: 2px;
+    text-align: left;
+    font-size: 18px;
+    color: gray;
+}
+
+.contact-frame .link{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+
+.contact-frame .link img{
+    width: 35px;
+    height: 35px;
+    transition: 0.15s;
+}
+
+.contact-frame .link img:hover{
+    transform: scale(1.1);
+}
