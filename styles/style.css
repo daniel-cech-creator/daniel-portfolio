@@ -1,6 +1,13 @@
 body{background-color: rgb(209, 209, 209);}
 h2, p {font-family: sans-serif;}
 
+.contact-row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
 .contact-frame{
     display: flex;
     flex-direction: column;
